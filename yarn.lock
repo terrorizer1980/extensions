@@ -104,6 +104,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
   integrity sha512-rLu3wcBWH4P5q1CGoSSH/i9hrXs7SlbRLkoq9IGuoPYNGQvDJ3pt/wmOM+XgYjIDRMVIdkUWt0RsfzF50JfnCw==
 
+"@remix-run/router@1.23.2":
+  version "1.23.2"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.23.2.tgz#156c4b481c0bee22a19f7924728a67120de06971"
+  integrity sha512-Ic6m2U/rMjTkhERIa/0ZtXJP17QUi2CbWE7cqx4J58M8aA3QTfW+2UlQ4psvTX9IO1RfNVhK3pcpdjej7L+t2w==
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -3468,15 +3473,6 @@ he@1.1.x:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
 
-history@^3.0.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/history/-/history-3.2.1.tgz#71c7497f4e6090363d19a6713bb52a1bfcdd99aa"
-  dependencies:
-    invariant "^2.2.1"
-    loose-envify "^1.2.0"
-    query-string "^4.2.2"
-    warning "^3.0.0"
-
 history@^4.4.0:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/history/-/history-4.5.1.tgz#44935a51021e3b8e67ebac267a35675732aba569"
@@ -3490,10 +3486,6 @@ history@^4.4.0:
 hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
-
-hoist-non-react-statics@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -5637,7 +5629,7 @@ qs@~6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.3.0.tgz#f403b264f23bc01228c74131b407f18d5ea5d442"
 
-query-string@^4.1.0, query-string@^4.2.2:
+query-string@^4.1.0:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.1.tgz#54baada6713eafc92be75c47a731f2ebd09cd11d"
   dependencies:
@@ -5783,15 +5775,12 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
-react-router@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-3.0.2.tgz#5a19156678810e01d81901f9c0fef63284b8a514"
+react-router@^6.30.2:
+  version "6.30.3"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.30.3.tgz#994b3ccdbe0e81fe84d4f998100f62584dfbf1cf"
+  integrity sha512-XRnlbKMTmktBkjCLE8/XcZFlnHvr2Ltdr1eJX4idL55/9BbORzyZEaIkBFDhFGCEWBBItsVrDxwx3gnisMitdw==
   dependencies:
-    history "^3.0.0"
-    hoist-non-react-statics "^1.2.0"
-    invariant "^2.2.1"
-    loose-envify "^1.2.0"
-    warning "^3.0.0"
+    "@remix-run/router" "1.23.2"
 
 react-select@2.4.3:
   version "2.4.3"
